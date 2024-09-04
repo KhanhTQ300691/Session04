@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: khaki;
+}
+header {
+  background-color: antiquewhite;
+  color: blue;
+  padding: 40px 30px;
+  text-align: center;
+}
+main {
+  padding: 30px;
+}
+.toc {
+  margin-bottom: 20px;
+}
+.toc ol {
+  list-style-type: 1;
+}
+.toc ol li {
+  margin-bottom: 10px;
+}
+.toc a {
+  text-decoration: none;
+  color: burlywood;
+}
+.toc a:hover {
+  text-decoration: underline;
+}
+.story {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
